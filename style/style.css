@@ -1,0 +1,53 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  background: #24353F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+
+.group {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.group h1{
+ font-size: 2.5rem;
+  
+}
+
+
+.group .form-control::placeholder {
+  color: white;
+  opacity: 0.75;
+}
+
+.group .form-control {
+  color: white;
+}
+
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.group .btn-outline-warning  {
+  border:1px solid #ffc107;
+  
+}
